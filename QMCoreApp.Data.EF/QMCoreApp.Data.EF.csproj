@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositoties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QMCoreApp.Data\QMCoreApp.Data.csproj" />
+    <ProjectReference Include="..\QMCoreApp.Infrastructure\QMCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\QMCoreApp.Utilities\QMCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
